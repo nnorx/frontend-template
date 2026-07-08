@@ -6,7 +6,7 @@ A minimal client application template.
 
 - **React 19** with [React Compiler](https://react.dev/learn/react-compiler) for automatic memoization
 - **TypeScript** with strict mode
-- **Vite** (rolldown-vite) for fast builds
+- **Vite** v8 for fast builds
 - **Tailwind CSS v4** with CSS variables for theming
 - **Biome** for linting and formatting
 - **Knip** for detecting unused code and dependencies
