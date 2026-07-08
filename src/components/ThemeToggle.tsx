@@ -25,10 +25,12 @@ export function ThemeToggle() {
 
 	return (
 		<DropdownMenu>
-			<DropdownMenuTrigger asChild>
-				<Button variant="ghost" size="icon" aria-label="Toggle theme">
-					<ThemeIcon />
-				</Button>
+			<DropdownMenuTrigger
+				render={
+					<Button variant="ghost" size="icon" aria-label="Toggle theme" />
+				}
+			>
+				<ThemeIcon />
 			</DropdownMenuTrigger>
 			<DropdownMenuContent align="end">
 				<DropdownMenuRadioGroup value={theme} onValueChange={handleChange}>

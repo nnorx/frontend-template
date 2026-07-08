@@ -70,7 +70,7 @@ import { cn } from "@/lib/utils";
 
 Components in `src/components/ui/` follow the [shadcn/ui](https://ui.shadcn.com/) pattern:
 
-- Built on [Radix UI](https://www.radix-ui.com/) primitives for accessibility
+- Built on [Base UI](https://base-ui.com/) primitives for accessibility
 - Styled with Tailwind CSS and [class-variance-authority](https://cva.style/docs) for variants
 - Copy-paste friendly—you own the code
 
