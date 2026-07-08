@@ -51,12 +51,8 @@ describe("Button", () => {
 		expect(screen.getByRole("button")).toBeDisabled();
 	});
 
-	it("renders as a child component when asChild is true", () => {
-		render(
-			<Button asChild>
-				<a href="/test">Link Button</a>
-			</Button>,
-		);
+	it("composes with another element via the render prop", () => {
+		render(<Button render={<a href="/test">Link Button</a>} />);
 		expect(
 			screen.getByRole("link", { name: "Link Button" }),
 		).toBeInTheDocument();
