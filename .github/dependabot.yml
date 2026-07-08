@@ -26,7 +26,6 @@ updates:
         patterns:
           - "vite*"
           - "@vitejs/*"
-          - "rolldown-vite"
         update-types:
           - "major"
       ui-major:
